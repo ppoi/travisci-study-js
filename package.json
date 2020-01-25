@@ -1,0 +1,24 @@
+{
+  "name": "travisci-study",
+  "version": "1.0.0",
+  "description": "study for integration with Travis CI",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ppoi/travisci-study-js.git"
+  },
+  "author": "@ppoi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ppoi/travisci-study-js/issues"
+  },
+  "homepage": "https://github.com/ppoi/travisci-study-js#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "mocha": "^7.0.0"
+  }
+}
